@@ -1,0 +1,677 @@
+.why-enduris {
+		
+		h2, p {
+			@media screen and (max-width: 767px)  {
+				text-align: center!important;
+			}
+		}
+	.x-breadcrumb-wrap {
+		display: none;
+	}
+
+	.about-header {
+		background-color: $greenlight!important;
+		margin: 0 auto;
+		border-top: 10px solid $greenlight;
+		border-bottom: 40px solid white;
+		background-image: url('/wp-content/uploads/2015/09/enduris-nugget.svg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding: 60px 0;
+		z-index: 0;
+		position: relative;
+		&:after {
+			content:"";
+			background-image: url("/wp-content/uploads/2015/09/form-bottom1.svg");
+			background-size: 400px;
+			background-repeat: repeat-x;
+			transform: rotate(180deg);
+			height: 20px;
+			width: 100%;
+			position: absolute;
+			bottom: -15px;
+			right: 0;
+			left: 0;
+			z-index: 20;
+		}
+
+		h1 {
+			color: white;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 4rem;
+			text-shadow: 4px 3px 0px $greendark, 9px 8px 0px rgba(0, 0, 0, 0.15);
+		}
+	}
+
+	.process {
+		background-color: $greenlight!important;
+		margin: 0 auto;
+		padding: 40px 0 0 40px;
+		min-height: 190px;
+		position: relative;
+		z-index: 2;
+
+		@media screen and (max-width: 767px) {
+			padding: 40px 20px;
+		}
+
+		@media screen and (max-width: 500px) {
+			padding: 0 10px 30px 10px;
+		}
+
+		@media screen and (max-width: 336px) {
+			padding: 40px 20px;
+		}
+
+		&:after {
+			content:"";
+			background-image: url("/wp-content/uploads/2015/09/form-bottom1.svg");
+			background-size: 400px;
+			background-repeat: repeat-x;
+			transform: rotate(180deg);
+			height: 20px;
+			width: 100%;
+			position: absolute;
+			bottom: -15px;
+			right: 0;
+			left: 0;
+			z-index: 2;
+		}
+
+		&:before {
+			content:"";
+			background-image: url("/wp-content/uploads/2015/09/topbar-border-3.svg");
+			background-size: 400px;
+			background-repeat: repeat-x;
+			transform: rotate(180deg);
+			height: 20px;
+			width: 100%;
+			position: absolute;
+			top: -10px;
+			right: 0;
+			left: 0;
+			z-index: 1;
+		}
+
+		.text-column {
+			width: 57%;
+
+			@media screen and (max-width: 984px) {
+				width: 49%;
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+				z-index:1000;
+			}
+
+			@media screen and (max-width: 500px) {
+				margin: 60px auto 5px auto;
+			}
+
+			h2 {
+				margin: -10px auto 5px auto!important;
+				color: white;
+				font-size: 2.6rem;
+			}
+
+			p {
+				color: white;
+				font-size: 1.54rem;
+			}
+		}
+
+		.img-column {
+			width: 40%;
+			margin-right: 2%;
+			z-index: 3;
+			position: relative;
+
+			@media screen and (max-width: 984px) {
+				width: 48%;
+				float: left;
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+				height: 0px;
+			}
+
+			img {
+				width: 100%;
+				margin: -60px auto;
+				z-index: 10;
+				opacity: .9;
+
+				@media screen and (max-width: 984px) {
+					margin: -20px auto 0 auto;
+				}
+
+				@media screen and (max-width: 767px) {
+					position: absolute;
+					top: -159px;
+					right: 0;
+					left: -39px;
+					width: 490px;
+				}
+
+				@media screen and (max-width: 336px) {
+					top: -354px;
+					left: -3px;
+				}
+			}
+		}
+	}
+
+	.america {
+		background-color: white!important;
+		margin: 0 auto;
+		padding: 50px 0 50px 0px;
+		position: relative;
+		z-index: 1;
+
+		@media screen and (max-width: 336px) {
+			padding-bottom: 30px;
+		}
+
+		&:after {
+			content:"";
+			background-image: url("/wp-content/uploads/2015/09/topbar-border-3.svg");
+			background-size: 400px;
+			background-repeat: repeat-x;
+			transform: rotate(180deg);
+			height: 20px;
+			width: 100%;
+			position: absolute;
+			bottom: -15px;
+			right: 0;
+			left: 0;
+			z-index: 3;
+		}
+
+		.text-column {
+			width: 55%;
+			float: right;
+			margin-right: 2%;
+
+			@media screen and (max-width: 767px) {
+				max-height: 200px;
+				padding: 0;
+				width: 68%;
+			}
+
+			@media screen and (max-width: 500px) {
+				width: 100%;
+				z-index: 6;
+			}
+			h2 {
+				margin: -2px auto 5px auto!important;
+				color: $green;
+				font-size: 2.6rem;
+				text-align: right;
+
+				@media screen and (max-width: 500px) {
+					color: $greydarker;
+				}
+			}
+
+			p {
+				color: $greenlight;
+				font-size: 1.54rem;
+				text-align: right;
+
+				@media screen and (max-width: 500px) {
+					color: $greydarker;
+					padding: 0 10px 0 10px;
+				}
+			}
+		}
+
+		.img-column {
+			width: 60%;
+			z-index: 3;
+
+			@media screen and (max-width: 767px) {
+				width: 75%;	
+			}
+
+			@media screen and (max-width: 500px) {
+				width: 100%;	
+			}
+
+			.star {
+				position: absolute;
+				top: 50px;
+				left: 10%;
+				width: 40%;
+				margin-top: -8%;
+				margin-left: 2%;
+				height: 200px;
+				background-image: url('/wp-content/uploads/2015/09/star1.svg');
+				background-size: 250px;
+				background-repeat: no-repeat;
+				background-position: top center;
+				transition: all 0.6s ease;
+				z-index: 3;
+
+				&:hover, &:focus {
+					transform: translate(84px, -34px);
+				}
+
+				@media screen and (max-width: 767px) {
+					width: 50%;
+					top: 50px;
+					z-index:5;
+					left: -5%;
+				}
+
+				@media screen and (max-width: 568px) {
+					opacity: .2;
+					width: 100%;
+					left: -38px;
+					right: 0;
+					top: 8px;
+					background-size: 380px;
+				}
+			}
+		}
+	}
+
+
+	.quality {
+		background-color: $greydarker!important;
+		margin: 0 auto;
+		padding: 40px 0 65px 20px;
+		position: relative;
+
+		@media screen and (max-width: 1014px) {
+			padding: 40px 0 20px 20px;
+		}
+
+		@media screen and (max-width: 767px) {
+			padding: 80px 20px 60px 20px;
+		}
+
+		@media screen and (max-width: 336px) {
+			padding: 20px;
+		}
+
+		&:after {
+			content:"";
+			background-image: url("/wp-content/uploads/2015/09/footer-border-2.svg");
+			background-size: 400px;
+			background-repeat: repeat-x;
+			transform: rotate(180deg);
+			height: 15px;
+			width: 100%;
+			position: absolute;
+			bottom: -15px;
+			right: 0;
+			left: 0;
+			z-index: 2;
+		}
+
+		.text-column {
+			width: 64%;
+
+			@media screen and (max-width: 984px) {
+				width: 49%;
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+			}
+
+			h2 {
+				margin: 20px auto 5px auto!important;
+				color: white;
+				font-size: 2.6rem;
+			}
+
+			p {
+				color: white;
+				font-size: 1.54rem;
+			}
+		}
+
+		.img-column {
+			width: 35%;
+			margin-right: 0;
+			min-width: 190px;
+			z-index: 4;
+
+			@media screen and (max-width: 984px) {
+				width: 48%;
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+				z-index: 0;
+			}
+
+			img {
+				width: 80%;
+				margin: 0 auto;
+				transform:  scalex(-1);
+				position: absolute;
+				top: -85px;
+				right: 20px;
+				z-index: 10;
+
+				@media screen and (min-width: 1230px) {
+					width: 335px;
+				}
+
+				@media screen and (max-width: 840px) {
+					top: -60px;
+				}
+
+				@media screen and (max-width: 767px) {
+					width: 100%;
+					top: -239px;
+					right: 0;
+					left: 0;
+					opacity: .2;
+				}
+			}
+		}
+	}
+
+	.support {
+		background-color: $greenlight!important;
+		margin: 0 auto;
+		padding: 60px 0 20px 40px;
+		min-height: 190px;
+		position: relative;
+
+		@media screen and (max-width: 767px) {
+			padding: 60px 20px;
+		}
+
+		@media screen and (max-width: 697px) {
+			padding: 60px 20px 30px 20px;
+		}
+
+		&:after {
+			content:"";
+			background-image: url("/wp-content/uploads/2015/09/form-bottom1.svg");
+			background-size: 400px;
+			background-repeat: repeat-x;
+			transform: rotate(180deg);
+			height: 20px;
+			width: 100%;
+			position: absolute;
+			bottom: -15px;
+			right: 0;
+			left: 0;
+			z-index: 1;
+		}
+
+		.text-column {
+			width: 57%;
+
+			@media screen and (max-width: 940px) {
+				width: 50%
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+			}
+
+			@media screen and (max-width: 546px) {
+				margin-top: 147px;
+			}
+
+			@media screen and (max-width: 400px) {
+				margin-top: 119px;
+			}
+
+			@media screen and (max-width: 328px) {
+				margin-top: 94px;
+			}
+
+			h2 {
+				margin: -10px auto 5px auto!important;
+				color: white;
+				font-size: 2.6rem;
+				text-align: right;
+			}
+
+			p {
+				color: white;
+				font-size: 1.54rem;
+				text-align: right;
+			}
+		}
+
+		.img-column {
+			width: 40%;
+			margin-right: 2%;
+
+			@media screen and (max-width: 940px) {
+				width: 46%
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+			}
+
+			img {
+				width: 100%;
+				margin: -20px auto 0 auto;
+
+				@media screen and (max-width: 940px) {
+					margin: 0 auto 0 auto;
+				}
+
+				@media screen and (max-width: 767px) {
+					opacity: .2;
+					position: absolute;
+					width: 90%;
+					left: 26px;
+					right: 0;
+					top: -30px;
+				}
+
+				@media screen and (max-width: 546px) {
+					width: 100%;
+					opacity: .8;
+					margin-right: 0;
+					left: 0;
+					right: 0;
+				}
+			}
+		}
+	}
+
+	.family {
+		background-color: white!important;
+		margin: 0 auto;
+		padding: 40px 0 0 60px;
+		min-height: 240px;
+		position: relative;
+
+		@media screen and (max-width: 767px) {
+			padding: 20px;
+		}
+		&:after {
+			content:"";
+			background-image: url("/wp-content/uploads/2015/09/topbar-border-3.svg");
+			background-size: 400px;
+			background-repeat: repeat-x;
+			transform: rotate(180deg);
+			height: 20px;
+			width: 100%;
+			position: absolute;
+			bottom: -15px;
+			right: 0;
+			left: 0;
+			z-index: 2;
+		}
+
+		.text-column {
+			width: 67%;
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+			}
+
+			h2 {
+				margin: 20px auto 5px auto!important;
+				color: $greendark;
+				font-size: 2.6rem;
+			}
+
+			p {
+				color: $greenlight;
+				font-size: 1.54rem;
+			}
+		}
+
+		.img-column {
+			width: 30%;
+			margin-right: 2%;
+			z-index: 20000;
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+			}
+
+			img {
+				width: 70%;
+				margin: -70px auto;
+
+				@media screen and (max-width: 940px) {
+					margin: -20px auto 0 auto;
+				}
+
+				@media screen and (max-width: 767px) {
+					width: 40%;
+				}
+			}
+		}
+	}
+
+	.recycle {
+		background-color: $greydarker!important;
+		margin: 0 auto;
+		padding: 40px 0 0 40px;
+		min-height: 225px;
+		position: relative;
+
+		@media screen and (max-width: 940px) {
+			padding: 40px 0 20px 40px;
+		}
+
+		@media screen and (max-width: 767px) {
+			padding: 40px 20px;
+		}
+
+		&:after {
+			content:"";
+			background-image: url("/wp-content/uploads/2015/09/footer-border-2.svg");
+			background-size: 400px;
+			background-repeat: repeat-x;
+			transform: rotate(180deg);
+			height: 15px;
+			width: 100%;
+			position: absolute;
+			bottom: -15px;
+			right: 0;
+			left: 0;
+			z-index: 1;
+		}
+
+		.text-column {
+			width: 67%;
+			z-index: 21;
+
+			@media screen and (max-width: 940px) {
+				width: 65%;
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+			}
+
+			h2 {
+				margin: 20px auto 5px auto!important;
+				color: white;
+				font-size: 2.6rem;
+				text-align: right;	
+			}
+
+			p {
+				color: white;
+				font-size: 1.54rem;
+				text-align: right;
+			}
+		}
+
+		.img-column {
+			width: 30%;
+			margin-right: 2%;
+			z-index: 20;
+
+			@media screen and (max-width: 767px) {
+				width: 100%;
+			}
+
+			img {
+				width: 80%;
+				margin: -50px auto;
+
+				@media screen and (max-width: 940px) {
+					margin: -5px auto 0 auto;
+				}
+
+				@media screen and (max-width: 767px) {
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: 0;
+					width: 30%;
+					opacity: .4;
+				}
+
+				@media screen and (max-width: 500px) {
+					width: 60%;
+				}
+			}
+		}
+	}
+
+	.why-callout {
+		margin: 0 auto -40px auto;
+		background: $green!important;
+		z-index: 0;
+
+		h3 {
+			text-align: center;
+			color: white;
+			margin: 0 auto;
+		}
+
+		.x-btn {
+			margin: 20px auto 0 auto;
+			text-align: center;
+			width: 50%;
+			display: block;
+			box-shadow: $boxgreen;
+			border-radius: 0;
+			border: 0;
+			transition: all 0.6s ease;
+			background: $red;
+
+			&:hover {
+				background-color: darken($red, 5%);
+				box-shadow: none;
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 90%;
+			}
+		}
+	}
+}

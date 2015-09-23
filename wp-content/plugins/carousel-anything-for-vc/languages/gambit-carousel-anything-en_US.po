@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 4k Icons\n"
+"POT-Creation-Date: 2014-10-08 13:38+0800\n"
+"PO-Revision-Date: 2014-10-08 13:38+0800\n"
+"Last-Translator: Benjamin Intal <bfintal@gmail.com>\n"
+"Language-Team: Gambit <bfintal@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../vc-carousel-anything.php:103
+msgid "Carousel Anything"
+msgstr ""
+
+#: ../vc-carousel-anything.php:106
+msgid "A modern and responsive content carousel system."
+msgstr ""
+
+#: ../vc-carousel-anything.php:115
+msgid "Items to display on screen"
+msgstr ""
+
+#: ../vc-carousel-anything.php:118 ../vc-carousel-anything.php:126
+#: ../vc-carousel-anything.php:134 ../vc-carousel-anything.php:142
+msgid "General options"
+msgstr ""
+
+#: ../vc-carousel-anything.php:119
+msgid "Maximum items to display at a time."
+msgstr ""
+
+#: ../vc-carousel-anything.php:123
+msgid "Items to display on small desktops"
+msgstr ""
+
+#: ../vc-carousel-anything.php:127
+msgid "Maximum items to display at a time for smaller screened desktops."
+msgstr ""
+
+#: ../vc-carousel-anything.php:131
+msgid "Items to display on tablets"
+msgstr ""
+
+#: ../vc-carousel-anything.php:135
+msgid "Maximum items to display at a time for tablet devices."
+msgstr ""
+
+#: ../vc-carousel-anything.php:139
+msgid "Items to display on mobile phones"
+msgstr ""
+
+#: ../vc-carousel-anything.php:143
+msgid "Maximum items to display at a time for mobile devices."
+msgstr ""
+
+#: ../vc-carousel-anything.php:150
+msgid "Navigation Thumbnails"
+msgstr ""
+
+#: ../vc-carousel-anything.php:153
+msgid "Circle"
+msgstr ""
+
+#: ../vc-carousel-anything.php:154
+msgid "Square"
+msgstr ""
+
+#: ../vc-carousel-anything.php:155
+msgid "Arrows"
+msgstr ""
+
+#: ../vc-carousel-anything.php:156
+msgid "None"
+msgstr ""
+
+#: ../vc-carousel-anything.php:158
+msgid ""
+"Select whether to display thumbnails below your carousel for navigation."
+"<br>Selecting Arrows will display navigation arrows at each side."
+msgstr ""
+
+#: ../vc-carousel-anything.php:159 ../vc-carousel-anything.php:172
+#: ../vc-carousel-anything.php:185 ../vc-carousel-anything.php:198
+#: ../vc-carousel-anything.php:211 ../vc-carousel-anything.php:224
+msgid "Thumbnails"
+msgstr ""
+
+#: ../vc-carousel-anything.php:164
+msgid "Thumbnail Default Color"
+msgstr ""
+
+#: ../vc-carousel-anything.php:167
+msgid ""
+"The color of the non-active thumbnail. Not applicable to Arrows type of "
+"navigation."
+msgstr ""
+
+#: ../vc-carousel-anything.php:177
+msgid "Thumbnail Active Color"
+msgstr ""
+
+#: ../vc-carousel-anything.php:180
+msgid ""
+"The color of the active / current thumbnail. Not applicable to Arrows type "
+"of navigation."
+msgstr ""
+
+#: ../vc-carousel-anything.php:192
+msgid ""
+"Check to display page numbers inside the thumbnails. Not applicable to "
+"Arrows type of navigation."
+msgstr ""
+
+#: ../vc-carousel-anything.php:203
+msgid "Thumbnail Deffault Page Number Color"
+msgstr ""
+
+#: ../vc-carousel-anything.php:206
+msgid "The color of the page numbers inside non-active thumbnails"
+msgstr ""
+
+#: ../vc-carousel-anything.php:216
+msgid "Thumbnail Active Page Number Color"
+msgstr ""
+
+#: ../vc-carousel-anything.php:219
+msgid "The color of the page numbers inside active / current thumbnails"
+msgstr ""
+
+#: ../vc-carousel-anything.php:233
+msgid ""
+"Scroll a page at a time. If unchecked, the carousel will scroll one item at "
+"a time."
+msgstr ""
+
+#: ../vc-carousel-anything.php:235 ../vc-carousel-anything.php:244
+#: ../vc-carousel-anything.php:257 ../vc-carousel-anything.php:266
+#: ../vc-carousel-anything.php:275
+msgid "Advanced"
+msgstr ""
+
+#: ../vc-carousel-anything.php:240
+msgid "Autoplay"
+msgstr ""
+
+#: ../vc-carousel-anything.php:243
+msgid ""
+"Enter an amount in milliseconds for the carousel to move. Leave blank to "
+"disable autoplay"
+msgstr ""
+
+#: ../vc-carousel-anything.php:251
+msgid "Pause the carousel when the mouse is hovered onto it."
+msgstr ""
+
+#: ../vc-carousel-anything.php:262
+msgid "Scroll Speed"
+msgstr ""
+
+#: ../vc-carousel-anything.php:265
+msgid "The speed the carousel scrolls in milliseconds"
+msgstr ""
+
+#: ../vc-carousel-anything.php:271
+msgid "Rewind Speed"
+msgstr ""
+
+#: ../vc-carousel-anything.php:274
+msgid ""
+"The speed the carousel scrolls back to the beginning after it reaches the "
+"end in milliseconds"
+msgstr ""
+
+#: ../vc-carousel-anything.php:297
+msgid "Get Customer Support"
+msgstr ""
+
+#: ../vc-carousel-anything.php:301
+msgid "Get More Plugins"
+msgstr ""
+
+#: ../vc-carousel-anything.php:409
+#, php-format
+msgid "Enjoying %s?"
+msgstr ""
+
+#: ../vc-carousel-anything.php:410
+msgid ""
+"Help us out by rating our plugin 5 stars in CodeCanyon! This will allow us "
+"to create more awesome products and provide top notch customer support."
+msgstr ""
+
+#: ../vc-carousel-anything.php:411
+msgid "Rate us 5 stars in CodeCanyon :)"
+msgstr ""
+
+#: ../vc-carousel-anything.php:412
+msgid "Remind me tomorrow"
+msgstr ""
+
+#: ../vc-carousel-anything.php:413
+msgid "I&apos;ve already rated!"
+msgstr ""
+
+#: ../vc-carousel-anything.php:484
+#, php-format
+msgid "Thank you for activating %s!"
+msgstr ""
+
+#: ../vc-carousel-anything.php:487
+msgid ""
+"Now just edit your pages and create a Carousel Anywhere element in Visual "
+"Composer."
+msgstr ""
+
+#: ../vc-carousel-anything.php:489
+msgid ""
+"If you need any support, you can leave us a ticket in our support site. The "
+"link to our support site is also listed in the plugin details for future "
+"reference."
+msgstr ""
+
+#: ../vc-carousel-anything.php:490
+msgid "Visit our support site"
+msgstr ""
+
+#: ../vc-carousel-anything.php:492
+msgid "This notice will go away in a moment"
+msgstr ""

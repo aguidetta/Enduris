@@ -1,0 +1,558 @@
+#post-12 {
+	width:100%;
+	margin: 0 auto;
+  background-color: transparent!important;
+
+	@media screen and (max-width: 767px) {
+		width: 100%;
+	}
+	.endeck-hero {
+    background-image: url('/wp-content/uploads/2015/08/endeck-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 616px;
+    min-height: 616px;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    
+    .endeck-box {
+      position: absolute;
+      z-index: 1;
+      margin: 0 auto;
+      padding: 20% 0 0 0;
+      height: 616px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+
+      h1 {
+        color: white;
+        text-align: center;
+        text-shadow: $hshadow;
+        margin: 0 auto;
+      }
+
+      .x-btn {
+        margin-top: 20px;
+        background-color: $greenlight;
+        border: none;
+        box-shadow: $boxgrey;
+        text-shadow: $dshadow;
+        font-size: 2rem;
+
+        &:hover {
+          background-color: $greendark;
+        }
+      }
+    }
+  
+    .hero-overlay {
+      background: rgba($greymidder, .1) url('/wp-content/uploads/2015/09/home_page_img_cover.png') repeat scroll 0px 0px !important;
+      margin: 0 auto;
+      position: absolute;
+      width: 100%;
+      height: 616px;
+      background-size: cover;
+    }
+	}
+
+
+  .videos {
+    margin: 0 auto;
+    padding: 0;
+
+    .vid-col {
+      padding:10px 5px 10px 5px;
+      background-color: $greydarker;
+      border-radius: 0;
+      margin: 0 auto;
+      width: 50%;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        float: none;
+      }
+
+      .x-video.embed {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .styles {
+    padding: 0;
+    margin: 0 auto;
+
+    .style-col {
+      padding: 0;
+      position: relative;
+      z-index: 0;
+      height: 429px;
+      background-size: 598px 429px;
+      background-repeat: no-repeat;
+      z-index: 0;
+      width: 50%;
+      @media screen and (max-width: 767px) {
+        float: left;
+      }
+
+      @media screen and (max-width: 574px) {
+        float: none;
+        width: 100%;
+      }
+
+      h2 {
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        background-color: $greymid;
+        color: white;
+        padding: 10px 5px;
+        border-radius: 0;
+        z-index: 1;
+        pointer-events: none;
+      }
+
+      .x-btn {
+        background:url('/wp-content/uploads/2015/09/home_page_img_cover.png') repeat scroll 0px 0px !important;
+        opacity:1;
+        border: none;
+        box-shadow: none;
+        margin:0 auto;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition:all 0.4s ease;
+        font-style: italic;
+        font-size: 2.6rem;
+        border-radius: 2px;
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+        p {
+          margin:0 auto;
+        }
+
+        &:hover {
+          background: rgba($greenlight, .4) url('/wp-content/uploads/2015/09/home_page_img_cover.png') repeat scroll 0px 0px !important;
+        }
+      }
+    }
+
+    .forest {
+      background-image: url('/wp-content/uploads/2015/08/endeck-forest.jpg');
+      background-size: cover;
+      margin-right: 0;
+      border-right: 5px solid $green;
+
+      h2 {
+        border-top: 5px solid $green;
+      }
+    }
+    .woodland {
+      background-image: url('/wp-content/uploads/2015/08/endeck-woodland.jpg');
+      background-size: cover;
+      border-left: 5px solid $greenlight;
+
+      h2 {
+        border-top: 5px solid $greenlight;
+      }
+    }
+  }
+
+  .style-details {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+    p {
+      padding: 0 20px 0 20px;
+    }
+
+    .detail-right {
+      border-left: 5px solid $greenlight;
+      border-bottom: 5px solid $greenlight;
+      width: 50%;
+
+      @media screen and (max-width: 767px) {
+        float: left;
+      }
+      @media screen and (max-width: 574px) {
+        float: none;
+        width: 100%;
+      }
+
+      h3 {
+        color: white;
+        background: $green;
+        margin: 0 auto;
+        line-height: 1.1;
+      }
+
+      h4 {
+        line-height: 1.1;
+        margin: 25px auto 8px auto;
+      }
+      
+      p {
+        text-align: left;
+        font-size: 1.6rem;
+        color: $greymidder;
+      }
+
+      .woodland-colors {
+        padding: 20px;
+        margin: 30px auto 0 auto;
+
+        p {
+          font-weight: 800;
+          text-transform: uppercase;
+          font-style: italic;
+          color:$greydark;
+          text-align: center;
+          margin: 0 auto 10px auto;
+          padding: 0;
+        }
+
+        .ashwood {
+          background-color:$ashwood;
+          height: 80px;
+          width: 100%;
+          border-radius: 2px;
+          box-shadow: $boxgrey;
+        }
+
+        .beechwood {
+          background-color:$beechwood;
+          height: 80px;
+          width: 100%;
+          border-radius: 2px;
+          box-shadow: $boxgrey;
+        }
+
+        .olivewood {
+          background-color:$olivewood;
+          height: 80px;
+          width: 100%;
+          border-radius: 2px;
+          box-shadow: $boxgrey;
+        }
+      }
+    }
+    
+    .detail-left {
+      margin-right: 0;
+      border-right: 5px solid $green;
+      border-bottom: 5px solid $green;
+      width: 50%;
+
+      @media screen and (max-width: 767px) {
+        float: left;
+      }
+
+      @media screen and (max-width: 574px) {
+        float: none;
+        width: 100%;
+      }
+
+      h3 {
+        color: white;
+        background: $green;
+        margin: 0 auto;
+        line-height: 1.1;
+      }
+
+      h4 {
+        line-height: 1.1;
+        margin: 25px auto 8px auto;
+      }
+      
+      p {
+        text-align: left;
+        font-size: 1.6rem;
+        color: $greymidder;
+      }
+
+      .forest-colors {
+        padding: 20px;
+        margin: 30px auto 0 auto;
+
+        p {
+          font-weight: 800;
+          text-transform: uppercase;
+          font-style: italic;
+          color:$greydark;
+          text-align: center;
+          margin: 0 auto 10px auto;
+        }
+
+        .sable {
+          background-color:$sable;
+          height: 80px;
+          width: 100%;
+          border-radius: 2px;
+          box-shadow: $boxgrey;
+        }
+
+        .slate {
+          background-color:$slate;
+          height: 80px;
+          width: 100%;
+          border-radius: 2px;
+          box-shadow: $boxgrey;
+        }
+
+        .chestnut {
+          background-color:$chestnut;
+          height: 80px;
+          width: 100%;
+          border-radius: 2px;
+          box-shadow: $boxgrey;
+        }
+
+        .sequoia {
+          background-color:$sequoia;
+          height: 80px;
+          width: 100%;
+          border-radius: 2px;
+          box-shadow: $boxgrey;
+        }
+
+        .cedar {
+          background-color:$cedar;
+          height: 80px;
+          width: 100%;
+          border-radius: 2px;
+          box-shadow: $boxgrey;
+        }
+      }
+    }
+  }
+
+  .header {
+    padding: 0;
+    margin: 0 auto;
+
+    @media screen and (max-width:434px) {
+      display: none;
+    }
+
+    h2 {
+      margin: 0 auto;
+      padding: 5px;
+      text-align: center;
+      text-transform: uppercase;
+      font-style: italic;
+      font-weight: 700;
+      color: white;
+      background: $greymidder;
+    }
+  }
+
+  .table-wrap {
+    padding: 0;
+    margin: 0 auto;
+    border-left: 5px solid $greymidder;
+    border-right: 5px solid $greymidder;
+    border-bottom: 5px solid $greymidder;
+
+    p {
+      display: none;
+    }
+
+    @media screen and (max-width:434px) {
+      display: none;
+    }
+
+    #tablepress-1.endeck-table {
+      margin-bottom: 0;
+
+      caption {
+        display: none;
+      }
+
+      thead {
+
+        .row-1.odd {
+          background-color: $green!important;
+
+          th.column-1 {
+            background-color:$green;
+            color:#fff;
+            text-align:center;
+            font-size:2rem;
+            text-transform: uppercase;
+            font-style: italic;
+          }
+
+          th.column-2 {
+            background-color:$greenlight;
+            color:#fff;
+            text-align:center;
+            font-size:2rem;
+            text-transform: uppercase;
+            font-style: italic;
+          }
+
+          th.column-3 {
+            background-color:$green;
+            color:#fff;
+            text-align:center;
+            font-size:2rem;
+            text-transform: uppercase;
+            font-style: italic;
+          }
+
+          th.column-4 {
+            background-color:$greenlight;
+            color:#fff;
+            text-align:center;
+            font-size:2rem;
+            text-transform: uppercase;
+            font-style: italic;
+          }
+        }
+      }
+
+      tbody {
+        border:none;
+
+        tr.even {
+          border:none;
+
+          td.column-1 {
+            padding: 12px 0 0 10px;
+          }
+
+          td {
+            text-transform: uppercase;
+            font-weight: 700;
+            border: none;
+            font-style: italic;
+
+            i.x-icon.x-icon-check {
+              color:$greenlight;
+              text-align: center;
+              display: block;
+              margin: 0 auto;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+
+            i.x-icon.x-icon-ban {
+              color:$red;
+              text-align: center;
+              display: block;
+              margin: 0 auto;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+          }
+        }
+
+        tr.odd {
+          background-color: $green;
+
+          td.column-1 {
+            padding: 12px 0 0 10px;
+          }
+
+          td {
+            text-transform: uppercase;
+            font-weight: 700;
+            border: none;
+            font-size: 1.4rem;
+            font-style: italic;
+
+            i.x-icon.x-icon-check {
+              color:$greenlight;
+              text-align: center;
+              display: block;
+              margin: 0 auto;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+
+            i.x-icon.x-icon-ban {
+              color:$red;
+              text-align: center;
+              display: block;
+              margin: 0 auto;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .endeck-callout {
+    background-color:$green!important;
+    padding:0;
+    border-radius: 0 0 2px 2px;
+    border-right: 5px solid $greymidder;
+    border-left: 5px solid $greymidder;
+    border-bottom: 5px solid $greymidder;
+    margin: 0 auto;
+
+    h4 {
+      background-color: $green;
+      color:#fff;
+      text-transform: uppercase;
+      font-weight:bold;
+      font-style: italic;
+      text-align: center;
+      margin:0 auto 20px auto;
+      font-size: 3.2rem;
+      padding: 10px 5px;
+      border-radius: 2px 2px 0 0;
+      @media screen and (max-width:500px) {
+        margin:0 auto;
+        font-size: 3rem;
+      }
+    }
+
+    .x-btn {
+      box-shadow: none;
+      border: none;
+      display: block;
+      margin: 0 auto 20px auto;
+      width: 20%;
+      background-color:$greenlight;
+      border-radius: 2px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-style: italic;
+      font-weight: 2rem;
+
+      p {
+        margin: 0 auto;
+      }
+
+      &:hover {
+        background-color: $greymid;
+      }
+
+      @media screen and (max-width:500px) {
+        width:100%;
+        padding:20px;
+        font-size:2rem;
+        margin:0 auto;
+      }
+    }
+  }
+}

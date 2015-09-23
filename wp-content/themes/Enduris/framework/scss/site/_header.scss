@@ -1,0 +1,379 @@
+header.masthead.masthead-inline {
+	.x-topbar {
+    min-height:36px;
+    background-color:#eee;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width:100%;
+    margin: 0 auto;
+    border-radius: 0;
+    position: relative;
+    border: none;
+    &:after {
+      content:"";
+      transform: rotate(180deg);
+      background-image: url("/wp-content/uploads/2015/09/topbar-border-2.svg");
+      width: 100%;
+      height: 16px;
+      background-repeat: repeat-x;
+      bottom: -10px;
+      right:0;
+      left:0;
+      position: absolute;
+      z-index:-2;
+    }
+
+    .x-topbar-inner.x-container.max.width {
+      background-color:transparent;
+      width: 96%;
+      max-width: 1900px;
+
+      @media screen and (max-width: 767px) {
+        width: 98%;
+        text-align: center;
+      }
+      .p-info {
+        color:$greymidder;
+        background-color:transparent!important;
+        font-size:1.4rem;
+        margin:0 auto;
+        font-weight:bold;
+        text-transform: uppercase;
+        font-style: italic;
+        margin-top:6px;
+        @media screen and (max-width:890px) {
+          text-align: center;
+          width: 100%;
+        }
+        @media screen and (max-width:767px) {
+          font-size:1.1rem;
+          margin: 0 auto;
+          padding: 2px;
+        }
+        @media screen and (max-width:593px) {
+          display: none;
+        }
+
+        a {
+          color:$greymidder;
+          padding:0 20px 0 0;
+          text-decoration: none;
+          border:none;
+          font-weight: 800;
+          letter-spacing: 1px;
+          position: relative;
+          transition: all 0.6s ease;
+
+          &:hover, &:active {
+            color:$green;
+            &:before {
+              transform: scale(1.1);
+            }
+          }
+
+          @media screen and (max-width: 767px) {
+            padding: 10px;
+          }
+          &:nth-child(1) {
+            &:before {
+              font-family: "FontAwesome";
+              content:"\f007";
+              margin-right: 8px;
+              color:$green;
+              font-weight: 800;
+              font-size: 1.8rem;
+            }
+          }
+          &:nth-child(2) {
+            &:before {
+              font-family: "FontAwesome";
+              content:"\f015";
+              margin-right: 8px;
+              color:$green;
+              font-weight: 800;
+              font-size: 1.8rem;
+            }
+          }
+          &:nth-child(3) {
+            margin-right: 28px;
+           @media screen and (max-width:767px) {
+            margin-right: 26px;
+           }
+            &:before {
+              font-family: "FontAwesome";
+              content:"\f041";
+              margin-right: 8px;
+              color:$green;
+              font-weight: 800;
+              font-size: 1.8rem;
+            }
+          }
+          &:nth-child(4) {
+
+            &:before {
+              background-image: url('/wp-content/uploads/2015/09/enduris-nugget.svg');
+              content:"";
+              height: 20px;
+              width: 20px;
+              position: absolute;
+              left: -28px;
+              top: -2px;
+              @media screen and (max-width:767px) {
+                top: 7px;
+                left: -14px;
+                height: 18px;
+                width: 18px;
+              }
+            }     
+          }
+          &:nth-child(5) {
+            &:before {
+              font-family: "FontAwesome";
+              content:"\f128";
+              margin-right: 8px;
+              color:$green;
+              font-weight: 800;
+              font-size: 1.8rem;
+            }
+          }
+        }
+      }
+      .p-number {
+        float: right;
+        margin: 2px auto 0 auto;
+        font-size: 2rem;
+        font-weight: 800;
+        font-style: italic;
+        letter-spacing: 2px;
+        a {
+          color: $green;
+          @media screen and (max-width:469px) {
+            font-size:2.8rem;
+          }
+        }
+
+        &:before {
+          font-family: "FontAwesome";
+          content: "\f095";
+          color: $greymidder;
+          margin-right: 8px;
+        }
+        @media screen and (max-width:890px ) {
+          float: none;
+          text-align:center;
+          display: block;
+          margin: 0 auto;
+        }
+        @media screen and (max-width:593px) {
+          font-size:2.8rem;
+        }
+      }
+      .x-social-global {
+        display:none;
+      }
+    }
+	}
+	.x-navbar-wrap {
+    width:98%;
+    display:block;
+    margin:18px auto 0 auto;
+    @media screen and (min-width: 1650px) {
+      width:100%;
+    }
+    @media screen and (max-width: 979px) {
+      width:100%;
+    }
+
+		.x-navbar {
+      box-shadow:none;
+      border-bottom:none;
+      background-color: transparent;
+			.x-navbar-inner {
+
+				.x-container.max.width {
+          width:100%;
+          max-width: 1900px;
+
+					.x-brand.img {
+            margin:0px auto 10px 10px!important;
+            img {
+              width: 210px;
+              transition:all 0.6s ease;
+              z-index: 2;
+              &:hover {
+                opacity:.9;
+              }
+            }
+					}
+
+          a.x-btn-navbar.collapsed {
+            background-color:$green;
+            color:#fff;
+            border-radius: 2px;
+            margin: 16px 10px 0 auto;
+            transition: all 0.6s ease;
+
+            &:hover, &:active {
+              background-color:darken($green, 10%);
+              transform: scale(.9);
+            }
+          }
+
+            a.x-btn-navbar {
+            background-color:$green;
+            color:#fff;
+            border-radius: 2px;
+            margin: 16px 10px 0 auto;
+          }
+
+          .x-nav-wrap.desktop {
+            ul.x-nav {
+              max-height:40px!important;
+              background:$green;
+              margin:19px auto 0 auto;
+              float:right;
+              border-radius:2px;
+              li {
+                transition:background-color 0.6s ease;
+                &:hover, &:active {
+                  background: $greenlight;
+                  border-radius:2px;
+                }
+
+                a {
+                  font-size:1.8rem;
+                  color:#fff;
+                  font-weight:800;
+                  max-height:40px!important;
+                  margin:0 auto;
+                  padding:12px 12px 0 12px;
+                  text-transform: uppercase;
+                  box-shadow:none;
+                  font-style:italic;
+
+                  &:hover, &:active {
+                    box-shadow:none;
+                  }
+
+                  span {
+                    margin:0 auto;
+                  }
+                }
+              }
+            }
+            ul.sub-menu {
+              background-color: $greenlight;
+              top: 40px;
+              min-width:300px;
+              border-radius: 0;
+              box-shadow: $boxgrey;
+              padding: 0;
+              transition: all 0.6s ease;
+              li {
+                padding: 2px 0;
+                width: 100%;
+                border-radius: 0!important;
+                &:hover, &:focus {
+                  background-color: $greymidder;
+                }
+                a {
+                  font-size: 1.4rem;
+                  padding: 0 5px;
+                  margin: 0 0 0 10px;
+                  position: relative;
+                  span {
+                    transition: none!important;
+                    &:after {
+                      content: "\f0da";
+                      float: right;
+                      position: absolute;
+                      top:-5px;
+                      right: 10px;
+                      font-size: 2rem;
+                      vertical-align: center;
+                      width:10px;
+                      height: 10px;
+                    }
+                    &:hover, &:active {
+                      &:after {
+                        right: 4px;
+                        pointer-events: none;
+                      }
+                    }
+                  }
+                }
+              }
+              .sub-menu {
+                right: -100%;
+                top: -1%!important;
+                min-width: 300px;
+                background-color: lighten($greenlight, 10%);
+                box-shadow: $boxgrey;
+                li {
+                  &:hover, &:focus {
+                    background-color: lighten($greymidder, 10%);
+                  }
+                }
+              }
+            }
+          }
+
+          .x-nav-wrap.mobile {
+            ul {
+              text-align:center;
+              background-color:$green;
+              margin:0 auto 10px auto;
+              border-radius:2px;
+              width:100%;
+              box-shadow: $boxgrey;
+              li {
+                border-radius:2px;
+                transition:background-color 0.3s ease;
+                box-shadow: none;
+                &:hover {
+                  background-color:$greenlight;
+                }
+                a{
+                  font-size:2rem;
+                  text-transform:uppercase;
+                  color:#fff;
+                  font-weight:700;
+                  font-style:italic;
+                  padding:10px;
+                  border: none;
+                }
+              }
+            }
+            .sub-menu {
+              background-color: $greymidder;
+              margin: 0 auto;
+
+              li {
+                text-align: left;
+                border: none!important;
+                a {
+                  font-size: 1.4rem;
+                  border: none;
+                }
+              }
+
+              .sub-menu {
+                background-color: $greendark;
+                margin: 0 auto;
+
+                li {
+                  text-align: left;
+                  border: none!important;
+                  a {
+                    font-size: 1.4rem;
+                    border: none;
+                  }
+                }
+              }
+            }
+          }
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,311 @@
+.product-accessory {
+	.x-breadcrumb-wrap {
+		background-color: #eee;
+		border: none;
+		box-shadow: none;
+		font-weight: 800;
+		font-size:1.4rem;
+		font-style: italic;
+		color: $greytext;
+		padding: 5px;
+		width: 98%;
+		margin: 0 auto;
+		border-radius: 2px;
+		@media screen and (max-width: 767px) {
+			font-size:1rem;
+		}
+		.x-container.max.width {
+			width: 98%;
+			.x-breadcrumbs {
+				a {
+					.home {
+						.x-icon-home {
+							color: $green;
+							font-size: 2rem;
+							&:hover, &:focus {
+								color: $greymidder;
+							}
+						}
+					}
+				}
+				.delimiter {
+					i {
+						font-size: 2rem;
+						font-weight: 800;
+						color: $green;
+					}
+				}
+				a {
+					color: $greenlight;
+					&:hover, &:focus {
+						color: $greymidder;
+					}
+				}
+				.current {
+					color: $greymidder;
+				}
+			}
+		}
+	}
+
+	article {
+		width: 96%;
+		margin: 0 auto;
+		@media screen and (max-width:767px) {
+			width: 100%;
+		}
+
+		.accessory-title {
+			background-color:transparent!important;
+			margin: 10px auto 20px auto;
+			padding: 0;
+			h1 {
+				text-align: center;
+				font-size: 3.4rem;
+				background-color: $green;
+				color: white;
+				box-shadow: $boxgreysmall;
+				padding: 10px;
+				margin: 0 auto;
+			}
+		}
+
+		.accessory-module {
+			background-color: $greymidder!important;
+			padding: 20px 10px 20px 20px;
+			margin: 0 auto 20px auto;
+			@media screen and (max-width:767px) {
+				padding: 20px;
+			}
+			.left-module {
+				background-color: white;
+				box-shadow: $boxgreysmall;
+				h2 {
+					background-color: $green;
+					color: white;
+					font-size: 2.2rem;
+					text-align: center;
+					padding: 10px 5px;
+					margin: 0 auto;
+				}
+
+				img {
+					padding: 20px;
+					height: 300px;
+					width: auto;
+					transition: all 0.6s ease;
+					&:hover, &:focus {
+						opacity:.5;
+					}
+					@media screen and (max-width:767px) {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			.right-module {
+				h3 {
+					background-color: $green;
+					color: white;
+					font-size: 2rem;
+					text-align: center;
+					padding: 10px 5px;
+					margin: 0 auto;
+					box-shadow: $boxgreysmall;
+				}
+				.top-module {
+					background-color: white!important;
+					box-shadow: $boxgreysmall;
+					@media screen and (max-width:767px) {
+						margin-bottom: 0;
+					}
+					.white {
+						background-color: $white;
+						height: 100px;
+						width: 90%;
+						border:inset 2px rgba(49,43,46,.1);
+						box-shadow: $boxgrey;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"White";
+							background-color: $greendark;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 18px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 32%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+							padding: 2px 0;
+						}
+					}
+					.tan {
+						background-color: $tan;
+						height: 100px;
+						width: 90%;
+						box-shadow: $boxgrey;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Tan";
+							background-color: $greendark;
+							box-shadow: $boxgrey;
+							border-radius: 0;
+							color: white;
+							font-size: 18px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 32%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+							padding: 2px 0;
+						}
+					}
+					.khaki {
+						background-color: $khaki;
+						height: 100px;
+						width: 90%;
+						box-shadow: $boxgrey;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Khaki";
+							background-color: $greendark;
+							box-shadow: $boxgrey;
+							border-radius: 0;
+							color: white;
+							font-size: 18px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 32%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+							padding: 2px 0;
+						}
+					}
+					.black {
+						background-color: $greymidder;
+						height: 100px;
+						width: 90%;
+						box-shadow: $boxgrey;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Black";
+							background-color: $greendark;
+							box-shadow: $boxgrey;
+							border-radius: 0;
+							color: white;
+							font-size: 18px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 32%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+							padding: 2px 0;
+						}
+					}
+				}
+				.bottom-module {
+					padding: 0;
+					margin: 0 auto;
+					h4 {
+						background-color: $green;
+						color: white;
+						font-size: 2rem;
+						text-align: center;
+						padding: 10px 5px;
+						margin: 0 auto;
+						box-shadow: $boxgreysmall;
+					}
+					.bottom-widget {
+						background-color: white;
+						width: 100%;
+						box-shadow: $boxgreysmall;
+						padding: 23px;
+						p {
+							color: $greymidder;
+							font-size: 3rem;
+							text-align: center;
+							font-weight: 700;
+							margin: 0 auto;
+							font-style: italic;
+							@media screen and (max-width:911px) {
+								font-size: 2.4rem;
+							}
+						}
+						ul {
+							padding: 0;
+							margin: 0 auto;
+							padding: 0 10px;
+							li {
+								color: $greymidder;
+								font-size: 2rem;
+								text-align: center;
+								font-weight: 700;
+								margin: 0 auto;
+								font-style: italic;
+								list-style: none;
+								line-height: 26px;
+								@media screen and (max-width:911px) {
+									font-size: 2.4rem;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

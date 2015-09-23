@@ -1,0 +1,169 @@
+.faq {
+	.faq-header {
+		background-color: $greenlight!important;
+		background-image: url('/wp-content/uploads/2015/09/header-question.svg');
+		background-size: 200px 150px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		margin: 10px auto 0 auto;
+		width: 98%;
+		display: block;
+		transition: all 0.4s ease;
+
+		&:hover {
+			background-color: $greymidder!important;
+		}
+
+		h1 {
+			color: white;
+			text-align: center;
+			margin: 0 auto;
+
+			@media screen and (max-width: 500px) {
+				font-size: 3rem;
+			}
+		}
+	}
+
+	.top-module-wrap {
+		background: white!important;
+		padding: 10px;
+		margin: 0 auto;
+		width: 98%;
+
+		@media screen and (max-width: 767px) {
+			padding: 0;
+		}
+
+		.top-module {
+			background: white!important;
+			margin:0 auto;
+			padding: 20px 20px 20px 40px;
+			border: 10px solid #eee;
+			box-shadow: $boxgrey;
+			box-sizing: border-box;
+			
+			@media screen and (min-width: 1131px) {
+				min-height: 520px;
+			}
+
+			@media screen and (max-width: 1130px) {
+				min-height: 680px;
+			}
+
+			@media screen and (max-width: 767px) {
+				min-height: auto;
+				box-shadow: none;
+			}
+
+			@media screen and (max-width: 500px) {
+				padding: 10px;
+			}
+
+			h2 {
+				margin: 0 auto;
+				color: $green;
+				text-shadow: $dshadow;
+				margin: 0 auto 10px auto;
+
+				@media screen and (max-width: 500px) {
+					text-align: center;
+				}
+			}
+
+			a {
+				color: lighten($greydark, 50%);
+				&:hover {
+					color: $greenlight;
+					text-decoration: underline;
+				}
+			}
+
+			ol {
+				margin: 0 auto;
+				padding: 0 10px 0 10px;
+
+				@media screen and (max-width: 500px) {
+					list-style: square;
+					margin-left: 12px;
+				}
+			}
+		}
+	}
+
+	.bottom-module-wrap {
+		background: #eee!important;
+		width: 98%;
+		display: block;
+		margin: 10px auto 0 auto;
+		padding: 10px;
+
+		h3 {
+			margin: 0 auto;
+			color: white;
+			background: $green;
+			text-align: center;
+			box-shadow: $boxgreysmall;
+		}
+
+		.bottom-module {
+			background: white!important;
+			padding: 20px;
+			margin: 0 auto;
+			box-shadow: $boxgreysmall;
+
+			p {
+				display: none;
+			}
+
+			ol {
+				list-style: none;
+				margin: 0 auto 10px auto;
+				li {
+					position: relative;
+					&:nth-child(2) {
+						color: $green;
+						margin-bottom: 5px;
+						text-indent: 26px;
+						font-weight: bold;
+						font-style: italic;
+
+						@media screen and (max-width: 500px) {
+							margin-bottom: 15px;
+						}
+						&:before {
+							content: "";
+							background-image: url('/wp-content/uploads/2015/09/question-icon.svg');
+							background-repeat: no-repeat;
+							position: absolute;
+							top: -10px;
+							left: -10px;
+							height: 30px;
+							width: 30px;
+						}
+					}
+					&:nth-child(3) {
+						color: $greymidder;
+						text-indent: 26px;
+						&:before {
+							content: "";
+							background-image: url('/wp-content/uploads/2015/09/ANSWER-ICON.svg');
+							background-repeat: no-repeat;
+							position: absolute;
+							top: -10px;
+							left: -10px;
+							height: 30px;
+							width: 30px;
+						}
+					}
+					&:nth-child(4) {
+						margin-top: 10px;
+						a {
+							color: lighten($greydark, 50%);
+						} 
+					}
+				}
+			}
+		}
+	}
+}

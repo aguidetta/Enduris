@@ -1,0 +1,51 @@
+$greydark: #231f21;
+$greymid: lighten($greydark, 5%);
+$greymidder: lighten($greymid, 5%);
+$greydarker: darken($greymidder, 5%);
+$greenlighter: #62aa83;
+$greylight: #eee;
+$greylightdark: darken($greylight, 10%);
+$greytext: #595255;
+
+$green: #376350;
+$greenlight: #428465;
+$greendark: darken($green, 5%);
+
+$red: #a92b19;
+
+$box: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+$box2: 0 0 5px rgba(0,0,0,0.1);
+$boxgreen: 6px 6px 0px 0px rgba(46,83,67,.9);
+$boxgrey: 6px 6px 0px 0px rgba(49,43,46,.1);
+$boxgreydark: 4px 4px 0px 0px rgba(49,43,46,.2);
+$boxgreybottom: 0px 6px 0px 4px rgba(49,43,46,.1);
+$boxgreysmall: 3px 3px 0px 0px rgba(49,43,46,.1);
+$boxblack: 6px 6px 1px 2px rgba(49,43,46,.5);
+
+//------------------TYPOGRAPHY
+$hshadow: 1px 2px $greydark;
+$gpshadow: 1px 2px $greendark;
+$gypshadowlight: 2px 2px rgba($greylight, .9);
+$dshadow:7px 3px 0px rgba($greymidder, 0.15);
+$pshadow: 2px 1px 0px $greydarker, 3px 2px 0px rgba(0, 0, 0, 0.1);
+$greenshadow: 4px 3px 0px $greendark, 5px 4px 0px rgba(0, 0, 0, 0.15);
+//------------------Endeck Colors
+//----woodland
+$ashwood: #C0C0C0;
+$beechwood: #DACAB1;
+$olivewood: #C3B39A;
+
+//----forest
+$chestnut: #3D2A23;
+$sequoia: #41271B;
+$cedar: #815532;
+
+//------------------fence colors
+$white: #fff;
+$tan: #DBD8BD;
+$khaki: #827C6C;
+
+//------------------endwood colors
+$sable: #8D5F47;
+$slate: #878888;
+$sequoiaew: #563426;

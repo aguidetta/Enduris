@@ -1,0 +1,1141 @@
+.product-single {
+	.x-breadcrumb-wrap {
+		background-color: #eee;
+		border: none;
+		box-shadow: none;
+		font-weight: 800;
+		font-size:1.4rem;
+		font-style: italic;
+		color: $greytext;
+		padding: 5px;
+		width: 98%;
+		margin: 0 auto;
+		border-radius: 2px;
+		@media screen and (max-width: 767px) {
+			font-size:1rem;
+		}
+		.x-container.max.width {
+			width: 98%;
+			.x-breadcrumbs {
+				a {
+					.home {
+						.x-icon-home {
+							color: $green;
+							font-size: 2rem;
+							&:hover, &:focus {
+								color: $greymidder;
+							}
+						}
+					}
+				}
+				.delimiter {
+					i {
+						font-size: 2rem;
+						font-weight: 800;
+						color: $green;
+					}
+				}
+				a {
+					color: $greenlight;
+					&:hover, &:focus {
+						color: $greymidder;
+					}
+				}
+				.current {
+					color: $greymidder;
+				}
+			}
+		}
+	}
+
+	article {
+		width: 96%;
+		margin: 0 auto;
+		@media screen and (max-width:767px) {
+			width: 100%;
+		}
+
+		#x-content-band-1 {
+			padding: 0;
+			margin: 0 auto;
+			.products-left {
+				p {
+					display: none;
+				}
+				#x-content-band-2 {
+					padding: 0;
+					margin: 0 auto;
+					h1 {
+						font-size: 3rem;
+						text-align: center;
+						background-color: $greendark;
+						margin: 10px auto 10px auto;
+						padding: 10px 5px;
+						box-shadow: $boxgrey;
+						color: white;
+						display: block;
+						text-shadow: $dshadow;
+						@media screen and (max-width: 767px) {
+							margin: 10px auto 15px auto;
+						}
+					}
+					.metaslider {
+						.flexslider {
+
+						}
+						.filmstrip {
+							margin-left: -8px;
+							.flex-viewport {
+								overflow: visible!important;
+								ul.slides {
+									li {
+										opacity: .8;
+										transition:opacity 0.6s ease;
+										img {
+										}
+									}
+								}
+							}
+
+							.flex-direction-nav {
+								display: none;
+								.flex-prev {
+
+								}
+								.flex-next{
+									position: relative;
+									right: 22px;
+								}
+							}
+						}
+					}
+				}
+				//-----------------share buttons
+				.x-entry-share {
+					border: none;
+					box-shadow: none;
+					margin: 15px auto 0 auto;
+					background-color: $green;
+					box-shadow: $boxgrey;
+					padding: 0;
+					p {
+						display: inline!important;
+						font-weight: 800;
+						font-size: 2rem;
+						font-style: italic;
+						color: white;
+						background-color: $greendark;
+						display: block!important;
+						width: 100%;
+						margin: 0 auto 2px auto;
+						padding: 5px 0;
+					}
+					.x-share-options {
+						a {
+							background-color: transparent;
+							i {
+								color: white;
+								font-size:3.2rem;
+								border-radius: 2px;
+								background-color: transparent;
+								transition:padding 0.6s ease;
+								@media screen and (max-width: 767px) {
+									font-size:4rem;
+								}
+							}
+						}
+					}
+				}
+			}
+			.products-right {
+				margin: 10px auto 0 auto;
+				padding: 0 10px 0 15px;
+				background-color: transparent;
+				@media screen and (max-width: 767px) {
+					padding: 2px 20px 20px 20px;
+				}
+
+				h2 {
+					font-size: 2.2rem;
+					text-align: center;
+					background-color: $greendark;
+					margin: 0px auto;
+					padding: 10px 5px;
+					box-shadow: $box;
+					color: white;
+					display: block;
+					box-shadow: $boxgrey;
+				}
+				h3 {
+					font-size: 2rem;
+					text-align: center;
+					margin: 20px auto 0 auto;
+					color: white;
+					background-color: $greendark;
+					margin: 5px auto 0 auto;
+					padding: 5px;
+					box-shadow: $boxgrey;
+
+					&:nth-child(3) {
+						margin-top: 0;
+					}
+				}
+				.x-btn {
+					display: block;
+					background-color: $greendark;
+					border-radius: 0!important;
+					border: 0;
+					box-shadow: $boxgrey;
+					margin: 0 auto;
+					font-size: 2.2rem;
+					transition:box-shadow 0.6s ease, background-color 0.6s ease;
+					&:hover, &:focus {
+						background-color: $green;
+						box-shadow: none;
+					}
+				}
+				#x-content-band-3 {
+					padding: 30px 15px 20px 15px;
+					margin: 0 auto 10px auto;
+					background-color: white!important;
+					box-shadow: $boxgrey;
+					border: 15px solid #eee;
+					box-sizing: border-box;
+
+					a {
+					  color: $greenlight!important;
+					  font-weight: bold;
+					  &:hover, &:focus {
+					    color: $green;
+					    font-weight: bold;
+					  }
+					}
+
+					p {
+						font-size: 1.6rem;
+						color: lighten($greymidder, 5%);
+						padding: 0 20px;
+					}
+
+					ul {
+						list-style: square;
+						padding: 0 20px;
+						li {
+							font-size: 1.4rem;
+							color:lighten($greymidder, 8%);
+							font-style: italic;
+						}
+					}
+				}
+				
+				.color-band {
+					.x-container {
+						.x-column {
+							.x-container {
+								&:hover, &:focus {
+									width: 90%;
+								}
+							}
+						}
+					}
+				}
+					
+				.color-band {
+					background-color: $greenlight!important;
+					padding: 15px 8px 20px 8px;
+					margin: 0 auto;
+					box-shadow: $boxgrey;
+					border: 10px solid $greendark;
+					border-top: none;
+					border-bottom: none;
+
+
+					&:nth-of-type(3) {
+						padding: 0 8px 20px 8px!important;
+					}
+					//-------------------------------FENCE
+					.white {
+						background-color: $white!important;
+						height: 75px!important;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+
+						&:before {
+							content:"White";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+
+					.black {
+						background-color: $greydarker;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+
+						&:before {
+							content:"Black";
+							background-color: $greenlight;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					.tan {
+						background-color: $tan;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Tan";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					.khaki {
+						background-color: $khaki;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Khaki";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					//---------------------------------ENDWOOD
+					.sable {
+						background-color: $sable;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Sable";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					.slate {
+						background-color: $slate;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Slate";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					.sequoiaew {
+						background-color: $sequoiaew;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Sequoia";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					//------------------------ENDECK
+					//-------------forest
+					.sequoia {
+						background-color: $sequoia;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Sequoia";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					.cedar {
+						background-color: $cedar;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Cedar";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					.chestnut {
+						background-color: $chestnut;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Chestnut";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					//-------------woodland
+					.ashwood {
+						background-color: $ashwood;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Ashwood";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					.beechwood {
+						background-color: $beechwood;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Beechwood";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+					.olivewood {
+						background-color: $olivewood;
+						height: 75px;
+						width: 90%;
+						box-shadow: $boxgreen;
+						transition:all 0.3s ease;
+						position: relative;
+						&:hover, &:focus {
+							width: 92%;
+							box-shadow: none;
+						}
+						@media screen and (max-width: 767px) {
+							margin: 0 auto 10px auto;
+						}
+						&:before {
+							content:"Olivewood";
+							background-color: $greymidder;
+							box-shadow: $boxgreysmall;
+							border-radius: 0;
+							color: white;
+							font-size: 16px;
+							font-weight: 800;
+							font-style: italic;
+							width: 75%;
+							height: 10%;
+							position: absolute;
+							top: 30%;
+							left: -5px;
+							text-align: center;
+							overflow: hidden;
+							opacity: 1;
+						}
+					}
+
+					.x-container {
+						z-index: 3;
+						&:before {
+							left: -6px;
+							padding: 0 7px 0 7px;
+							background: $greymidder!important;
+						}
+					}
+
+					.x-column {
+						&:after {
+							content:"";
+							background-color: $greydarker;
+							width: 50px;
+							height: 20px;
+							transform: rotate(20deg);
+							position: absolute;
+							left: 4px;
+							z-index: 1;
+							top: 53%;
+							display: none;
+
+							@media screen and (max-width: 767px) {
+								display: none;
+				      }
+						}
+					}
+					
+					.black-col {
+						&:after {
+							left: 18px!important;
+						}
+					}
+				}
+				.endeck-band {
+
+					.x-column {
+
+						&:last-child {
+							display: none;
+						}
+
+						&:after {
+							content:"";
+							background-color: $greydarker;
+							width: 40px;
+							height: 30px;
+							transform: rotate(-60deg);
+							position: absolute;
+							left: -1px;
+							z-index: 2;
+							top: -30%;
+							display: none;
+						}
+					}
+				}
+			}
+		}
+		#x-content-band-5, .row-2 {
+			background-color: transparent!important;
+			padding: 0!important;
+			margin: 10px auto 0 auto;
+			.spec-left{
+				background-color: white;
+				padding: 20px 20px 30px 20px;
+				border: 6px solid #eee;
+				box-shadow: $boxgrey;
+				p {
+					display: none;
+				}
+				h3 {
+					margin: 0 auto 10px auto;
+					font-size:2.4rem;
+					@media screen and (max-width: 400px) {
+						text-align: center;
+					}
+				}
+				.img-wrap-1 {
+					background-color: #eee!important;
+					padding: 20px 10px;
+					box-shadow: $boxgreysmall;
+					margin-bottom: 20px;
+					margin-top: 0;
+					img {
+						margin: 0 auto;
+						padding: 10px;
+						border-radius: 100%;
+						box-shadow: $box;
+						background-color: white;
+						width: 142px;
+						height: 142px;
+						@media screen and(max-width: 982px) {
+							margin-bottom: 10px;
+						}
+					}
+				}
+
+				.img-wrap-2 {
+					background-color: #eee!important;
+					padding: 20px;
+					box-shadow: $boxgreysmall;
+					img {
+						margin: 0 auto;
+						padding: 10px;
+						border-radius: 100%;
+						box-shadow: $box;
+						background-color: white;
+						width: 142px;
+						height: 142px;
+						@media screen and(max-width: 767px) {
+							margin-bottom: 10px;
+						}
+					}
+				}
+				.tablepress {
+					margin: 0 auto;
+					caption {
+						display: none;
+					}
+					tbody {
+						color: $greymidder;
+						font-style: italic;
+
+						td {
+							text-indent: 5px;
+						}
+						.odd {
+							text-transform: capitalize;
+							.column-1 {
+								border: 0;
+							}
+							.column-2 {
+								border: 0;
+							}
+						}
+						.even {
+							text-transform: capitalize;
+							.column-1 {
+								border: 0;
+							}
+							.column-2 {
+								border: 0;
+							}
+						}
+					}
+				}
+				h4 {
+					margin: 20px auto 10px auto;
+					font-size:2.4rem;
+					@media screen and (max-width: 767px) {
+						text-align: center;
+					}
+				}
+				.case-study {
+					padding: 0!important;
+					margin: 0 auto;
+					.x-btn {
+						display: block;
+						background-color: $green;
+						border: none;
+						border-radius: 0;
+						margin: 0 auto 10px auto;
+						box-shadow: $boxgrey;
+						font-size: 1.4rem;
+						text-align: center;
+						padding: 10px 10px 10px 16px;
+						transition:box-shadow 0.6s ease, background-color 0.6s ease;
+						&:hover, &:focus {
+							background-color: $greenlight;
+							box-shadow: none;
+						}
+						p {
+							margin: 0 auto;
+							display: inline-block;
+						}
+						@media screen and (max-width: 400px) {
+							text-align: center;
+						}
+					}
+				}
+			}
+			.spec-right {
+				background-color: white;
+				padding: 20px 20px 0 20px;
+				box-shadow: $boxgrey;
+				border: 6px solid #eee;
+				@media screen and (max-width: 767px) {
+					padding: 0 20px 20px 20px;	
+				}
+				h3 {
+					margin: 0 auto 10px auto;
+					font-size:2.4rem;
+					@media screen and (max-width: 400px) {
+						text-align: center;
+					}
+				}
+				.x-btn {
+					display: block;
+					background-color: $green;
+					border: none;
+					border-radius: 0;
+					margin: 0 auto 10px auto;
+					box-shadow: $boxgrey;
+					font-size: 1.4rem;
+					text-align: left;
+					padding: 10px 10px 10px 16px;
+					transition:box-shadow 0.6s ease, background-color 0.6s ease;
+					&:hover, &:focus {
+						background-color: $greenlight;
+						box-shadow: none;
+					}
+					p {
+						margin: 0 auto;
+					}
+					@media screen and (max-width: 400px) {
+						text-align: center;
+					}
+				}
+				p {
+					margin-top: 30px;
+					a {
+						text-decoration: underline;
+						color: $green;
+						&:hover, &:focus {
+							opacity: .8;
+						}
+					}
+				}
+			}
+		}
+		#x-content-band-6, .product-header {
+			margin: 10px auto 0 auto;
+			padding: 0;
+			h4 {
+				text-align: center;
+				color:white;
+				background-color: $green;
+				margin: 0 auto;
+				padding: 10px 5px;
+			}
+		}
+		.x-content-band.product-gallery {
+			background-color: white!important;
+			padding: 10px;
+			margin: 0 auto;
+			.x-column.x-1-6 {
+				width: 15.8%;
+				@media screen and (max-width:1140px) {
+					width:32.3%;
+				}
+				@media screen and (max-width:767px) {
+					width:50%;
+					float: left;
+				}
+				@media screen and (max-width:628px) {
+					width:100%;
+				}    
+				img {
+					margin: 10px auto;
+					padding: 10px;
+					background-color: $greylight;
+					width: 175px;
+					height: 165px;
+					box-shadow: 4px 4px 0px 0px rgba(49,43,46,.1);
+					transition: all 0.6s ease;
+					&:hover, &:focus {
+						opacity: .9;
+						box-shadow: none;
+					}
+					@media screen and (max-width:1140px) {
+						width: 275px;
+						height: 265px;
+					}
+					@media screen and (max-width:767px) {
+						width: 275px;
+						height: 265px;
+					}
+				}
+			}
+		}
+
+		.related-styles {
+			padding: 0;
+			margin: 20px auto 0 auto;
+			background-color: white!important;
+			h4 {
+				margin: 0 auto;
+				background-color: $greendark;
+				color: white;
+				text-align: center;
+				padding: 10px 5px;
+				font-size: 2.2rem;
+			}
+			.carousel-anything-container {
+				.x-content-band {
+					padding: 10px;
+					margin: 0 auto;
+					h4 {
+						margin: 0 auto;
+						background-color: #eee;
+						color: $greymidder;
+						text-align: center;
+						font-size: 1.4rem;
+						box-shadow: $boxgreysmall;
+						padding:10px 5px;
+					}
+
+					img {
+						padding: 10px;
+						background-color: transparent;
+						margin: 0 auto;
+					}
+					.x-btn {
+						background-color: $green;
+						color: white;
+						border: none;
+						border-radius: 0;
+						box-shadow: $boxgreysmall;
+						font-size: 1.2rem;
+						margin: 0 auto;
+						display: block;
+						padding: 12px 7px;
+						p {
+							margin: 0 auto;
+						}
+						&:hover, &:focus {
+							background-color:$greymidder;
+						}
+					}
+				}
+				.owl-controls {
+					.owl-buttons {
+						.owl-next{
+
+						}
+						.owl-prev {
+							&:before {
+								color: $greymidder!important;
+							}	
+						}
+					}
+				}
+			}	
+		}
+		.related-accessories {
+			padding: 0;
+			margin: 10px auto 0 auto;
+			background-color: white!important;
+			h4 {
+				margin: 0 auto;
+				background-color: $greendark;
+				color: white;
+				text-align: center;
+				padding: 10px 5px;
+				font-size: 2.2rem;
+			}
+			.carousel-anything-container {
+				.x-content-band {
+					padding: 10px;
+					margin: 0 auto;
+					h4 {
+						margin: 0 auto;
+						background-color: #eee;
+						color: $greymidder;
+						text-align: center;
+						font-size: 1.4rem;
+						box-shadow: $boxgreysmall;
+						padding:5px;
+					}
+
+					img {
+						padding: 10px;
+						background-color: transparent;
+						margin: 0 auto;
+					}
+					.x-btn {
+						background-color: $green;
+						color: white;
+						border: none;
+						border-radius: 0;
+						box-shadow: $boxgreysmall;
+						font-size: 1.2rem;
+						margin: 0 auto;
+						display: block;
+						padding: 12px 7px;
+						p {
+							margin: 0 auto;
+						}
+						&:hover, &:focus {
+							background-color:$greymidder;
+						}
+					}
+				}
+				.owl-controls {
+					.owl-buttons {
+						.owl-next{
+
+						}
+						.owl-prev {
+							&:before {
+								color: $greymidder!important;
+							}	
+						}
+					}
+				}
+			}
+		}
+		.product-callout {
+			margin: 10px auto 0 auto;
+			padding: 16px 16px 18px 16px;
+			background-color: #eee!important;
+			.x-callout {
+				border: none;
+				border-radius: 0;
+				box-shadow: $boxgreysmall;
+				background-color: lighten(#eee, 2%);
+				margin: 0 auto;
+				&:before {
+					content: "";
+					border: none;
+					box-shadow: $box2;
+					border-radius: 0;
+				}
+				.h-callout {
+					font-size: 2.2rem;
+					color: $greymidder;
+				}
+				.p-callout {
+					font-size: 1.6rem;
+				}
+				.x-btn {
+					border: none;
+					box-shadow: $boxgreysmall;
+					background-color: $green;
+					border-radius: 0;
+					padding: 10px 8px;
+					font-size: 1.5rem;
+					&:hover, &:focus {
+						background-color: $greenlight;
+					}
+				}
+			}
+		}
+	}
+}

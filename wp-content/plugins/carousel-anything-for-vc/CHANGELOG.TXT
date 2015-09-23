@@ -1,0 +1,59 @@
+Version 1.6.1 - August 29, 2015
+===============================
+
+* Fixed a critical issue where Carousel Posts shortcode would not be editable afterwards in Visual Composer.
+
+Version 1.6 - August 20, 2015
+=============================
+
+* Modified backend structure, it now shows the (inner) rows vertically instead of stacking blocks, this is for better visualization because..
+* Columns are now possible inside a Carousel Anything element!
+* New Carousel Posts element - display your latest posts (filterable) inside a carousel, comes with 2 designs: plain and featured image background.
+* The Carousel Anything shortcode no longer crashes the browser Javascript if launched in frontend mode.
+* Removed auto-height auto-adjustment
+* Updated plugin file structure for better performance.
+* Added ability to define a custom class for a particular carousel.
+* Added the ability to control carousels by keyboard.
+* Updated and added internal autoupdates, and removed ratings system for a less-obstrusive pointer system.
+
+Version 1.5 - May 28, 2015
+==========================
+
+* Added new setting for enabling/disabling dragging
+* Adjusted VC initialization
+* Added class checks for error prevention
+* Added minor protection for CWE-200 (shouldn't affect anyone)
+
+Version 1.4 - March 30, 2015
+============================
+
+* Removed scroll per page option since Owl Carousel was not handling this correctly
+* Namespaced Owl Carousel in order to protect from conflicts (such as with VC's new grid element)
+* Fixed alignment issues when placing multiple elements on top of each other
+* Fixed height display issues
+* Fixed rare error when our shortcode did not render at all
+
+Version 1.3 - January 25, 2015
+==============================
+
+* Fixed frontend display compatibility issue with VC 4.4
+* Fixed bug where in some rare occassions a fatal error would occur with vc_map
+
+Version 1.2 - October 8, 2014
+=============================
+
+* Added the option to choose left/right arrows
+* Fixed bug where the plugin doesn't render in the frontend properly for some themes (e.g. Salient)
+* Made it easier to drag rows around in the backend editor
+
+Version 1.1
+===========
+
+* Better admin UI display, using the element in columns now display properly
+* Tested compatibility with the Salient theme and other themes with modified Visual Composers
+* Added default content for better usability
+
+Version 1.0
+===========
+
+* First release

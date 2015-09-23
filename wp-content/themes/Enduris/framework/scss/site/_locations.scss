@@ -1,0 +1,104 @@
+.locations {
+	.hero-carousel {
+		padding: 0;
+		margin: 10px auto 12px auto;
+		@media screen and (max-width: 500px) {
+			display: none;
+		}
+		.x-content-band {
+			padding: 0;
+			margin: 0 auto;
+		}
+		img {
+			margin: 0 auto;
+		}
+	}
+
+	.g1 {
+		background: $greenlight!important;
+		padding: 20px;
+		@media screen and (max-width: 500px) {
+			margin-top: 20px;
+		}
+	}
+	.g2 {
+		background: darken($greenlight, 8%)!important;
+		padding: 20px;
+	}
+	.g3 {
+		background: darken($greenlight, 12%)!important;
+		padding: 20px;
+	}
+	.location-module {
+		background: white!important;
+		padding:20px;
+		margin: 0 auto;
+		width: 65%;
+		box-shadow: $boxgreen;
+		@media screen and (max-width: 767px) {
+			width: 98%;
+		}
+		@media screen and (max-width: 400px) {
+			width: 100%;
+		}
+		h2 {
+			font-size: 2.8rem;
+			text-align: center;
+			color: #37423e;
+			margin: 0 auto;
+		}
+		h3 {
+			font-size: 1.8rem;
+			text-align: center;
+			color: #37423e;
+		}
+		h4 {
+			font-size: 1.7rem;
+			text-align: center;
+			color: #37423e;
+			margin:0 auto;
+		}
+		p {
+			font-size: 1.5rem;
+			text-align: center;
+			color: #404a45;
+			margin: 0 auto;
+			&:nth-child(6) {
+				margin-bottom: 10px;
+			}
+		}
+		.x-btn {
+			display: block;
+			background: $greenlight;
+			border-radius: 0;
+			border: 0;
+			box-shadow: $boxgreysmall;
+			margin: 0 auto;
+			p {
+				margin: 0 auto;
+				color: white;
+				text-shadow: none;
+				font-size: 1.4rem;
+			}
+			&:hover {
+				background: $greymidder;
+				box-shadow: none;
+			}
+		}
+		.b2 {
+			background-color: darken($greenlight, 8%)!important;
+			&:hover {
+				background: $greymidder!important;
+				box-shadow: none;
+			}
+		}
+
+		.b3 {
+			background-color: darken($greenlight, 12%)!important;
+			&:hover {
+				background: $greymidder!important;
+				box-shadow: none;
+			}
+		}
+	}
+}

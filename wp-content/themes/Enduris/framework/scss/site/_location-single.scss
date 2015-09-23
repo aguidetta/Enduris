@@ -1,0 +1,123 @@
+.location-single {
+	.header {
+		padding: 0;
+		margin: 15px auto 12px auto;
+		h1 {
+			font-size: 3.2rem;
+			margin: 0 auto 10px auto;
+			text-align: center;
+			border-bottom: 1px solid #eee;
+			line-height: 4rem;
+			width: 75%;
+		}
+	}
+	.map-hero {
+		background: #eee!important;
+		padding: 15px;
+		.nap {
+			padding:15px;
+			background: white!important;
+			margin: 0 auto;
+			box-shadow: $boxgreysmall;
+			h2 {
+				font-size: 2rem;
+				margin: 0 auto;
+				color: $greymidder;
+			}
+			p {
+				font-size: 1.5rem;
+				padding: 0;
+				margin: 0 auto;
+				line-height: 2.4rem;
+			}
+			h3 {
+				font-size: 1.6rem;
+				margin: 0 auto;
+				padding: 0;
+			}
+		}
+
+		.x-map {
+			margin: 0 auto;
+			box-shadow: $boxgreysmall;
+			.x-map-inner {
+				padding:0 0 60% 0;
+				height: 100%;
+			}
+		}
+	}
+
+	.text {
+		background: #eee!important;
+		margin: 0 auto 15px;
+		padding: 15px;
+		.text-module {
+			background: white!important;
+			margin: 0 auto;
+			padding: 15px;
+			box-shadow: $boxgreysmall;
+			h1 {
+				font-size: 2.4rem;
+				margin: 0 auto 10px auto;
+			}
+			p {
+				line-height: 2.6rem;
+			}
+			a {
+				color: $greendark;
+				&:hover {
+					color: $greenlight;
+				}
+			}
+		}
+	}
+
+	.county-wrap {
+		background: #eee!important;
+		padding: 0;
+		margin: 0 auto;
+		h4 {
+			margin:0 auto;
+			color: white;
+			background: $green;
+			text-align: center;
+			padding: 5px;
+		}
+		.counties {
+			padding: 15px 5px 15px 15px;
+			margin: 0 auto;
+			table {
+				margin: 0 auto;
+				border:none;
+				tbody {
+					tr{
+						border-bottom: 5px solid #eee;
+						background-color: white!important;
+						margin-bottom: 5px;
+						td {
+							text-transform: uppercase;
+							position: relative;
+							text-align: center;
+							border: none;
+							box-shadow: $boxgreysmall;
+							font-style: italic;
+							font-weight: bold;
+							&:before {
+								content:"\f024";
+								font-family:"FontAwesome";
+								position: absolute;
+								left:5px;
+								top:-10px;
+								color: $greenlight;
+								transform: rotate(-20deg);
+								text-shadow:1px -5px 0px rgba(238, 238, 238, 1);
+								font-size: 2.6rem;
+								font-style: normal;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
