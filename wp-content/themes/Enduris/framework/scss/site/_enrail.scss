@@ -87,7 +87,7 @@
 			font-size: 3.6rem;
 			text-align: center;
 			text-shadow: 4px 3px 0px #eee, 9px 8px 0px rgba(0, 0, 0, 0.15);
-			background-color: $greylight;
+			background-color: $greylightdark;
 			margin: 20px auto 10px auto;
 			padding: 10px 5px;
 			box-shadow: $boxgrey;
@@ -136,7 +136,7 @@
 	}
 	.boxed {
 		padding: 20px 0 0 20px;
-		background-color: $greylight!important;
+		background-color: $greylightdark!important;
 		max-height: 260px;
 		margin: 20px auto;
 		border-radius: 2px;
